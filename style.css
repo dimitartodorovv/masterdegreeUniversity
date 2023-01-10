@@ -170,16 +170,20 @@ img {vertical-align: middle;}
     font-size: 1.4em;
     white-space: nowrap;
   }
+  .footer-wrap-mm {
+        display: grid;
+  }
   .footer_per_links_n {
     list-style: none;
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 10px 0 0 0;
     margin: 0;
   }
-  /* .footer_links-n:not(:first-child) {
+  .footer_links-n:not(:first-child) {
+
     margin-top: 0.8em;
-  } */
+  }
   .footer_per_links_n .footer_links-n a {
     color: #a7a7a7;
     text-decoration: none;

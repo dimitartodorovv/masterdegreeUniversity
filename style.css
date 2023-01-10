@@ -6,7 +6,7 @@
 
 .menu-navigation-web{
     display: flex;
-    background-image: linear-gradient(to top, #3f87a6 1%, #ebf8e1 33%, #f69d3c 121%);
+    background-image: linear-gradient(to bottom right, #3f87a6 1%, #ebf8e1 33%, #f69d3c 121%);
     border-bottom: 1px solid grey;
     box-shadow: 1px 1px 1px 2px #aaaaaa;
 }
@@ -19,6 +19,10 @@
 
 .logo-title {
     padding-left: 19px;
+    font-size: 38px;
+    background: -webkit-linear-gradient(45deg, #f69d3c, #3f87a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .header {
@@ -39,11 +43,12 @@
 }
 
 .und-menu-nav {
+    font-weight: bolder;
     padding-right: 0.8rem;
 }
 
 .main-body {
-    background-color: #dbd3d3;
+    background-color: #fff2f2;
 }
 
 .button-menu-nav {
@@ -80,28 +85,34 @@
 img {vertical-align: middle;}
 
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 1100px;
     position: relative;
-    margin: auto;
+   margin-left: auto;
+   margin-right: auto;
     padding-top: 1rem;
+    overflow: hidden;
   }
 
   .img-slide-n {
-        width: 1000px;
+        width: 1100px;
         height: 700px;
         background-size: cover;
         border-radius: 5px;
+        align-items: center;
+
   }
   
 
   .text {
-    color: #f2f2f2;
-    font-size: 15px;
+    color: #ffffff;
+    background-color: #393a3c73;
+    font-size: 35px;
     padding: 8px 12px;
     position: absolute;
     bottom: 150px;
     width: 100%;
     text-align: center;
+    align-items: center;
   }
   
   
@@ -242,5 +253,62 @@ img {vertical-align: middle;}
     text-align: right;
   }
   
-  
-  
+ 
+  /* video */
+
+  .work-section-n {
+    width: 100%;
+  height: 100vh;
+  position: relative;
+}
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}    
+.text-check-m {
+    position: relative;
+    margin: auto;
+    text-align: center;
+   padding-top: 6rem;
+    color:white;
+}
+.fa-solid{
+    padding-right: 20px;
+    font-size: xx-large;
+    font-size: 38px;
+    background: -webkit-linear-gradient(45deg, #f69d3c, #3f87a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-p-n {
+    display: flex;
+}
+.text-p-n > p {
+    padding: 25px;
+    text-align: center;
+}
+
+.info-text-n > h1{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.p-tag-text {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 15px;
+}
+
+.p-tag-text > p {
+    margin: 3rem;
+    padding: 2rem;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}

@@ -286,6 +286,7 @@ img {vertical-align: middle;}
 }
 .text-p-n {
     display: flex;
+    justify-content: center;
 }
 .text-p-n > p {
     padding: 25px;
